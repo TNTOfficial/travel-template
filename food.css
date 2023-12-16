@@ -1,0 +1,661 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1320px;
+    margin: auto;
+    width: 100%;
+}
+
+
+.navbar {
+    padding-top: 25px;
+    height: 100px;
+    border-top: 1px solid rgb(184, 181, 181);
+    display: flex;
+    justify-content: space-between;
+    /* gap: 200px; */
+
+}
+.logo img{ 
+    width: 200px;
+    height: 50px;
+ }
+
+.button {
+    display: flex;
+
+    padding: 10px 0px;
+    gap: 20px;
+    font-size: large;
+    font-weight: bold;
+
+}
+
+.button li a {
+
+
+    padding: 31px 10px 10px 10px;
+    transition: .1s ease;
+    text-decoration: none;
+    color: black;
+    /* list-style-type: none; */
+}
+
+.button li a:hover {
+    /* border-top:4px solid #3756f7 ; */
+    color: #3756f7;
+}
+
+.button li {
+    list-style-type: none;
+}
+
+.menu button {
+    color: #3756f7;
+    padding: 10px 40px;
+    background-color: white;
+    border: 1px solid #3756f7;
+    border-radius: 4px;
+    transition: .4s ease;
+}
+
+.menu button:hover {
+    background-color: #3756f7;
+    color: white;
+
+}
+
+.big_img { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+  background-image:url(./pexels-pixabay-326281.jpg) ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.big_img_text { 
+    color: white;
+    font-size: 25px;
+}
+.big_img_text a { 
+    text-decoration: none;
+    color: white;
+}
+.life_card { 
+    margin: 40px 0px;
+    display: flex;
+    gap: 40px;
+    width: 100%;
+
+}
+.life_card_one { 
+    width: 70%;
+
+}
+.life_card_two { 
+    width: 30%;
+}
+.life_card_two_one {
+    border: 1px solid #e5e5e5;
+    
+    padding: 0px 60px;
+    background-color: #f9faff;
+    background-image: url(./images/ab.png); 
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    width: 100%;
+    height: 500px;
+    text-align: center ;
+}
+.life_card_two_one img { 
+    margin-top: 40px ;
+    object-fit: cover;
+    object-position: center;
+    height: 220px;
+    width: 220px;
+    border-radius: 50%;
+}
+.life_card_two_one h1 {
+    margin: 10px;
+    /* font-size: 30px; ? */
+
+} 
+.life_card_two_one p { 
+    line-height: 25px;
+    color: #777777;
+}
+.ft_icon { 
+    
+    font-size: 30px;
+    margin: 40px;
+}
+.life_card_two_two { 
+    margin: 20px 0px;
+    border: 1px solid #e5e5e5;
+    width: 100%;
+    height: 100px;
+    padding: 20px;
+}
+.life_card_two_two_btn { 
+    display: flex;
+    width: 100%;
+    height: 100%;
+   }
+.life_card_two_two_btn input { 
+    background-color: #f9faff;
+    padding: 10px;
+
+    outline: none;
+    width: 80%;
+    height: 100%;
+border: none;
+border-radius: 6px;
+}
+.life_card_two_two_btn button { 
+    width: 20%;
+    border-radius: 6px;
+    background-color: #3756f7;
+    color: white;
+    font-size: 25px;
+    border: none;
+    outline: none;
+    height: 100%;
+}
+.life_card_two_cat { 
+    padding: 20px;
+    border: 1px solid #e5e5e5;
+}
+.life_card_two_cat h1 { 
+    border-bottom:4px solid #3756f7 ;
+    font-size: 30px;
+    padding: 0px 20px 20px 20px;
+    margin: 0px 20px; 
+
+
+}
+.icon_cat { 
+    padding: 20px;
+}
+.icon_cat li{
+   list-style-type: none;
+    padding: 12px 0px;
+    font-size: 25px;
+    border-bottom: 2px solid #f9f1ff ; 
+    
+}  
+.icon_cat a { 
+    color: black;
+    text-decoration: none;
+}
+.life_card_two_rel {
+    margin: 20px 0px; 
+    padding: 0px 20px ;
+    border: 1px solid #e5e5e5;
+
+    width: 100%;
+
+}
+.life_card_two_rel h1 { 
+    border-bottom:4px solid #3756f7 ;
+    font-size: 30px;
+    padding: 20px 0px;
+    margin:  0px 20px 10px 20px ; 
+
+
+}
+.rel_li {
+    gap: 20px;
+    display: flex;
+    padding: 10px 20px;
+margin: 0px 0px;
+    list-style-type: none;
+    width: 100%;
+    height: 100px; 
+
+}
+.rel_li img{ 
+    width: 100px;
+    height: 80px;
+    border-radius: 5px;
+}
+.rel_li h4 { 
+    
+    color: #777777;
+}
+.rel_li h4 p { 
+    color: black;
+      margin-top: 12px ;  
+     font-size: 19px; 
+}
+.insta { padding: 20px;
+    border: 1px solid #e5e5e5;
+}
+.insta h1 { 
+    margin: 0px 20px 20px 20px;
+    border-bottom:4px solid #3756f7 ;
+    font-size: 30px;
+     padding-bottom: 20px;
+}
+.insta_img { 
+text-align: center;
+}
+.insta_img img {
+    border-radius: 6px; 
+    width: 100px;
+    height: 100px;
+}
+.tag_span { 
+
+    margin: 20px 0px;
+    padding: 20px 40px 40px 40px;
+    width: 100%;
+    border: 1px solid #e5e5e5;
+}
+.tag_span h1 { padding: 00px 0px 20px 0px;
+    font-size: 30px;
+    margin: 0px 0px 20px 0px;
+    border-bottom: 4px solid #3756f7;
+}
+.tag_span li  {
+     
+    list-style-type:none ;
+}
+.tag_span_li li { 
+    border-radius: 6px;
+    padding: 8px 15px;
+    background-color: #ecf4fb;
+}
+.tag_span_li a { 
+    text-decoration: none;
+    color: black;
+}
+.tag_span_li {
+  
+  
+    font-size: 18px; 
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.blue_box {
+    color: white;
+    font-size: 20px;
+    background-color: #3756f7;
+    padding: 40px;
+    border: 1px solid #e5e5e5;
+}
+.blue_box h1 { 
+    margin: 20px 0px;
+    font-size: 35px;
+}
+.blue_box button {
+    color: white;
+    background-color: #3756f7;
+    border: 1px solid white;
+    margin: 20px 0px; 
+    padding: 15px 45px;
+    border-radius: 2px; 
+
+}
+.blue_box button a {
+     
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+}
+.life_card_one img { 
+    margin:0px 0px 40px 0px;
+    width: 100%;
+    height: 450px;
+    object-fit: fill;
+    object-position: center;
+}
+.ri-user-3-line a { 
+
+    color: #777777;
+    text-decoration: none;
+}
+.ri-calendar-2-line,.ri-user-3-line { 
+    color: #777777;
+}
+.ri-chat-3-line { 
+    color: #777777;
+    margin: 0px 15px;
+}
+#hhh1 {
+    transition: .2s ease;
+    color: black;
+    text-decoration: none;
+    font-size: 22px;
+}
+#hhh1:hover { 
+    color: #3756f7;
+}
+#hhh1 h1 {  margin: 20px 0px;
+
+}
+#h1 { 
+    color: #777777;
+    font-size: 20px;
+}
+#read p { 
+    margin: 40px 0px;
+}
+#read { 
+    color: black;
+    /* margin: 50px 0px; */
+}
+.topway { 
+    margin: 60px 0px;
+    background-image: url(./quotation_mark.svg);
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: 100px;
+    padding: 50px;
+    background-color: #f9faff; 
+    width: 100%;
+    height: 350px;
+}
+#lorem { 
+    margin: 30px 0px;
+    font-size: 30px;
+}
+#next_b { 
+    border: none;
+    outline:none;
+
+    background-color: #ecf4fb;
+    color: black;
+    font-size: 20px;
+    padding: 18px 22px;
+    transition: 0.2s ease-in;
+}
+#next_b:hover { 
+    background-color: #3756f7;
+    color: white;
+}
+.life_card_one img { 
+    object-position: center;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+
+    flex-wrap: wrap;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 40px;
+    width: 100%;
+    /* height: 500px; */
+    background-color: rgba(0, 0, 0, 0.797);
+}
+
+.footer-first-box,
+.footer-sec-box,
+.footer-th-box,
+.footer-f-box {
+    margin-top: 40px;
+}
+
+.footer-first-box {
+    color: white;
+    width: 350px;
+    height: 350px;
+}
+
+.footer-first-box p {
+    width: 300px;
+    margin-top: 30px;
+    text-align: justify;
+    word-spacing: 2qpx;
+    line-height: 30px;
+}
+.footer-first-box img { 
+    width: 200px;
+    height: 50px;
+}
+
+.footer-sec-box {
+    width: 200px;
+    height: 350px;
+}
+
+.footer-sec-box a {
+    color: white;
+    text-decoration: none;
+
+
+}
+
+.footer-th-box {
+    width: 350px;
+    height: 350px;
+}
+
+.footer-sec-box li {
+    list-style-type: none;
+    padding: 8px;
+}
+
+.footer-th-box li {
+    background-color: rgba(255, 255, 255, 0.1);
+    list-style-type: none;
+    margin: 5px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.footer-th-box li a {
+
+    color: white;
+    text-decoration: none;
+}
+
+.li {
+
+
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.footer-f-box {
+
+    width: 250px;
+    height: 350px;
+}
+
+.media {
+    margin-top: 20px;
+    width: 300px;
+    height: 200px;
+}
+
+.media li {
+
+    margin: 10px 0px;
+
+    list-style-type: none;
+}
+
+.media a {
+
+    text-decoration: none;
+    color: white;
+}
+
+.media img {
+
+    margin-right: 20px;
+}
+
+#icon {
+    font-size: 20px;
+}
+
+.bottom-bar {
+    font-size: 20px;
+    color: white;
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.bottom-bar a {
+    color: white;
+    text-decoration: none;
+}
+
+
+@media (max-width:576px) {
+.navbar { 
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}    
+.button { 
+    display: none;
+}
+.big_img  { 
+    padding: 0px 20px;
+    width: 100%;
+
+}
+.life_card {
+    padding:0px 20px ; 
+    display: flex;
+    flex-wrap: wrap;
+}
+.life_card_one { 
+
+    width: 100%;
+}
+.life_card_two { 
+    width: 100%;
+}
+.life_card_two_one { 
+    width: 100%;
+ }
+ .insta { 
+    text-align: center;
+ }
+ .insta_img {
+    justify-content: center;
+    gap: 40px;
+    display: flex;
+    flex-wrap: wrap; 
+
+ }
+ footer { 
+    width: 100%;
+ }
+
+ .footer-first-box p {
+    /* text-align: left; */
+    width: 100%;
+
+ 
+
+ }
+ }
+
+ @media only screen and (min-width: 576px) and (max-width: 768px) { 
+    .navbar { 
+        padding: 40px 20px 20px 20px ;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .button { 
+        display: none;
+    }
+    .big_img { 
+        padding: 20px;
+        width: 100%;
+    }
+    .life_card { 
+        display: flex;
+        flex-wrap: wrap;
+
+      
+    }
+    .life_card_one { 
+        padding:0px  20px;
+        width: 100%;
+    }
+    .life_card_two { 
+        width: 100%;
+        padding: 0px 20px;
+    }
+
+
+
+ }
+
+ @media only screen and (min-width: 768px) and (max-width: 992px) {
+    .navbar { 
+        padding: 40px 20px 20px 20px;
+    } 
+    .life_card { 
+        padding: 20px;
+    }
+     .life_card_two_rel { 
+        padding: 0px;
+        
+        height: 650px;
+     }
+     .life_card_two_rel li { 
+        margin: 30px 0px;
+     }
+     .life_card_two_rel img { 
+        height: 120px;
+        object-fit: cover;
+        object-position: center;
+        
+     }
+
+
+} 
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+    .navbar { 
+        padding: 40px 20px 20px 20px;
+    }
+.life_card { 
+    padding: 20px;
+}
+footer { 
+    gap: 0px;
+}
+
+}
+
+ 
