@@ -1469,6 +1469,62 @@ footer {
   }
 
   @media only screen and (min-width: 768px) and (max-width: 992px) {
+ .navbar { 
+  padding: 20px;
+ }
+ .card { 
+  padding: 20px;
+ }
+ .breaking { 
+  padding:0px 20px 20px 20px;
+ }  
+ .breakhead { 
+  margin-left: 20px;
+ }
+ #h1 { 
+  margin-left: 20px;
+ }
+ .firstcard { 
+  margin: 20px;
+ }
+ .sponsored-news { 
+  margin: 20px;
+ }
+  footer { 
+    gap: 0px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+
+  }
+  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+   .navbar,.card  {
+    padding: 20px;
+   } 
+  .breakhead { 
+    margin-left: 20px;
+  }
+  .breaking { 
+    margin: 0px 20px;
+  }
+  #h1 { 
+    margin: 20px;
+  }
+  .firstcard { 
+    margin: 20px;
+  }
+  .sponsored-news { 
+    margin: 20px;
+  }
+  footer { 
+    display: flex;
+    gap: 0px;
+  }
+  }
+
+
+
   
     .five-card { 
       gap: 48px;
